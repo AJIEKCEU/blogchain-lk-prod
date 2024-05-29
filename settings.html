@@ -137,7 +137,7 @@
                     <button class="header__btn js-toggle-menu" type="button">
                         <svg class="icon icon--size-xxl"><use href="local/templates/main/images/sprite.svg#icon-menu"/></svg>
                     </button>
-                    <h1 class="header__title">Добрый день, Anastasia</h1>
+                    <h1 class="header__title">Настройки</h1>
                 </div>
                 <div class="credits credits--theme-dark">
                     <div class="credits__logo">
@@ -151,13 +151,56 @@
             <div class="header-nav-shadow"></div>
             <div class="main-body">
                 <div class="main-body__content scrollbar scrollbar--vertical scrollbar--theme-gray">
-                    <h2>История запросов</h2>
-                    <div class="empty-info">
-                        <div class="empty-info__body">
-                            <svg class="icon icon--size-xxl empty-info__icon"><use href="local/templates/main/images/sprite.svg#icon-clock"/></svg>
-                            Тут будет ваша история запросов
+                    <form class="form settings">
+                        <div class="settings__item">
+                            <h2>Личная информация</h2>
+                            <div class="form__field-row">
+                                <div class="form__label">Фотография профиля</div>
+                                <div class="settings__changes">
+                                    <div class="settings__photo-avatar">
+                                        <img class="settings__photo-img" src="local/templates/main/images/temp/img80x80.jpg" alt="">
+                                    </div>
+                                    <div class="settings__buttons">
+                                        <button class="btn btn--size-m btn--theme-text-dark" type="button">Удалить</button>
+                                        <button class="btn btn--size-m btn--theme-text-accent" type="button">Изменить </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="settings__col">
+                                <div class="form__field-row">
+                                    <div class="form__label">Имя</div>
+                                    <input class="form__field" type="text" />
+                                </div>
+                                <div class="form__field-row">
+                                    <div class="form__label">Фамилия</div>
+                                    <input class="form__field" type="text" />
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                        <button class="btn btn--size-m btn--theme-accent settings__btn" type="button">Сохранить</button>
+                        <div class="settings__item">
+                            <h2>Адрес электронной почты</h2>
+                            <div class="settings__changes">
+                                <input class="settings__email" type="email" value="info@blogchain.by" readonly>
+                                <button class="btn btn--size-m btn--theme-text-accent" type="button">Изменить </button>
+                            </div>
+                        </div>
+                        <hr class="settings__sep">
+                        <div class="settings__item">
+                            <h2>Изменить пароль</h2>
+                            <div class="settings__col">
+                                <div class="form__field-row">
+                                    <div class="form__label">Новый пароль</div>
+                                    <input class="form__field" type="password"/>
+                                </div>
+                                <div class="form__field-row">
+                                    <div class="form__label">Подтверждение пароля</div>
+                                    <input class="form__field" type="password"/>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn--size-m btn--theme-accent settings__btn" type="button">Сохранить</button>
+                    </form>
                 </div>
             </div>
         </div>
