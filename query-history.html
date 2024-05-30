@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8"/>
+	<title>Заголовок</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="shortcut icon" href="local/templates/main/images/favicon.ico"/>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,600,700&amp;subset=cyrillic" rel="stylesheet">
+	<script src="local/templates/main/js/jquery.js"></script>
+	<link href="local/templates/main/css/main.min.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="main">
+    <nav class="nav js-nav">
+        <div class="nav__top">
+            <button class="nav__btn js-toggle-menu" type="button">
+                <svg class="icon icon--size-xxl"><use href="local/templates/main/images/sprite.svg#icon-menu-close"/></svg>
+            </button>
+            <a href="#">
+                <img class="nav__logo" width="156" height="33" src="local/templates/main/images/logo-personal.svg" alt="">
+            </a>
+        </div>
+        <div class="credits credits--theme-light nav__credits">
+            <div class="credits__logo">
+                <svg class="icon icon--size-m"><use href="local/templates/main/images/sprite.svg#icon-logo-small"/></svg>
+            </div>
+            <div class="credits__info">
+                60 Кредиты
+            </div>
+        </div>
+        <div class="nav__menu scrollbar scrollbar--vertical scrollbar--theme-gray">
+            <ul class="menu">
+                <li>
+                    <a class="personal-menu__link" href="#">
+                        <svg class="icon icon--size-xxl personal-menu__icon"><use href="local/templates/main/images/sprite.svg#icon-instagram"/></svg>
+                        <span>Пост в Инстаграм</span>
+                        
+                    </a>
+                </li><li>
+                    <a class="personal-menu__link" href="#">
+                        <svg class="icon icon--size-xxl personal-menu__icon"><use href="local/templates/main/images/sprite.svg#icon-bar-chart"/></svg>
+                        <span>SEO оптимизация</span>
+                        
+                    </a>
+                </li><li>
+                    <a class="personal-menu__link" href="#">
+                        <svg class="icon icon--size-xxl personal-menu__icon"><use href="local/templates/main/images/sprite.svg#icon-list"/></svg>
+                        <span>Перефраз. содержания</span>
+                        
+                    </a>
+                </li><li>
+                    <a class="personal-menu__link" href="#">
+                        <svg class="icon icon--size-xxl personal-menu__icon"><use href="local/templates/main/images/sprite.svg#icon-edit"/></svg>
+                        <span>Написание статей</span>
+                        
+                    </a>
+                </li><li>
+                    <a class="personal-menu__link" href="#">
+                        <svg class="icon icon--size-xxl personal-menu__icon"><use href="local/templates/main/images/sprite.svg#icon-flag"/></svg>
+                        <span>SMM стратегия</span>
+                        
+                    </a>
+                </li><li>
+                    <a class="personal-menu__link" href="#">
+                        <svg class="icon icon--size-xxl personal-menu__icon"><use href="local/templates/main/images/sprite.svg#icon-align-left"/></svg>
+                        <span>Контент план</span>
+                        
+                    </a>
+                </li><li>
+                    <a class="personal-menu__link" href="#">
+                        <svg class="icon icon--size-xxl personal-menu__icon"><use href="local/templates/main/images/sprite.svg#icon-play-circle"/></svg>
+                        <span>Сценарий для видео</span>
+                        
+                    </a>
+                </li><li>
+                    <a class="personal-menu__link" href="#">
+                        <svg class="icon icon--size-xxl personal-menu__icon"><use href="local/templates/main/images/sprite.svg#icon-users"/></svg>
+                        <span>Лид-магнит</span>
+                        
+                    </a>
+                </li><li>
+                    <a class="personal-menu__link" href="#">
+                        <svg class="icon icon--size-xxl personal-menu__icon"><use href="local/templates/main/images/sprite.svg#icon-image"/></svg>
+                        <span>Генерация фото</span>
+                        
+                            <span class="personal-menu__exclusive">Pro</span>
+                        
+                    </a>
+                </li><li>
+                    <a class="personal-menu__link" href="#">
+                        <svg class="icon icon--size-xxl personal-menu__icon"><use href="local/templates/main/images/sprite.svg#icon-text"/></svg>
+                        <span>Генерация лого.</span>
+                        
+                            <span class="personal-menu__exclusive">Pro</span>
+                        
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav__bottom">
+            <hr class="nav__sep">
+            <ul class="menu">
+                <li>
+                    <a class="personal-menu__link" href="#">
+                        <svg class="icon icon--size-xxl personal-menu__icon"><use href="local/templates/main/images/sprite.svg#icon-box"/></svg>
+                        <span>История</span>
+                        
+                    </a>
+                </li><li>
+                    <a class="personal-menu__link" href="#">
+                        <svg class="icon icon--size-xxl personal-menu__icon"><use href="local/templates/main/images/sprite.svg#icon-bar-chart"/></svg>
+                        <span>Настройки профиля</span>
+                        
+                    </a>
+                </li><li>
+                    <a class="personal-menu__link" href="#">
+                        <svg class="icon icon--size-xxl personal-menu__icon"><use href="local/templates/main/images/sprite.svg#icon-dollar"/></svg>
+                        <span>Подписка</span>
+                        
+                    </a>
+                </li>
+            </ul>
+            <hr class="nav__sep">
+            <div class="nav-user">
+                <img class="nav-user__avatar" src="local/templates/main/images/temp/img24x24.jpg" alt="">
+                <span class="nav-user__name">Anastasia Ivanova</span>
+                <button class="nav-user__button" type="button">
+                    <svg class="icon icon--size-xxl"><use href="local/templates/main/images/sprite.svg#icon-exit"/></svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <div class="main__content">
+        <header class="header">
+            <div class="header__aside">
+                <button class="header__btn js-toggle-menu" type="button">
+                    <svg class="icon icon--size-xxl"><use href="local/templates/main/images/sprite.svg#icon-menu"/></svg>
+                </button>
+                <h1 class="header__title">Добрый день, Anastasia</h1>
+            </div>
+            <div class="credits credits--theme-dark">
+                <div class="credits__logo">
+                    <svg class="icon icon--size-m"><use href="local/templates/main/images/sprite.svg#icon-logo-small"/></svg>
+                </div>
+                <div class="credits__info">
+                    60 Кредиты
+                </div>
+            </div>
+        </header>
+        <div class="header-nav-shadow"></div>
+        <div class="main-body">
+            <div class="main-body__content">
+                <form class="filter">
+                    <h2>История запросов</h2>
+                    <div class="filter-select js-filter-select">
+                        <button class="filter-select__button js-filter-select__button" type="button">
+                            <span class="filter-select__button-body">
+                                <svg class="icon icon--size-xl filter-select__icon"><use href="local/templates/main/images/sprite.svg#icon-layers"/></svg>
+                                <span class="filter-select__caption">Фильтр запросов</span>
+                            </span>
+                            <svg class="icon icon--size-xl filter-select__arrow"><use href="local/templates/main/images/sprite.svg#icon-chevron-down"/></svg>
+                        </button>
+                        <div class="filter-select__body js-filter-select__body">
+                            <ul class="filter-select__list">
+                                <li class="filter-select__list-item">
+                                    <input class="filter-select__checkbox" type="checkbox" id="check_1"/>
+                                    <label for="check_1" class="filter-select__label">
+                                        <svg class="icon icon--size-xl filter-select__icon"><use href="local/templates/main/images/sprite.svg#icon-bar-chart"/></svg>
+                                        <span class="filter-select__caption">SEO оптимизация</span>
+                                    </label>
+                                </li>
+                                <li class="filter-select__list-item">
+                                    <input class="filter-select__checkbox" type="checkbox" id="check_2"/>
+                                    <label for="check_2" class="filter-select__label">
+                                        <svg class="icon icon--size-xl filter-select__icon"><use href="local/templates/main/images/sprite.svg#icon-list"/></svg>
+                                        <span class="filter-select__caption">Перефраз. содержания</span>
+                                    </label>
+                                </li>
+                                <li class="filter-select__list-item">
+                                    <input class="filter-select__checkbox" type="checkbox" id="check_3"/>
+                                    <label for="check_3" class="filter-select__label">
+                                        <svg class="icon icon--size-xl filter-select__icon"><use href="local/templates/main/images/sprite.svg#icon-edit"/></svg>
+                                        <span class="filter-select__caption">Написание статей</span>
+                                    </label>
+                                </li>
+                                <li class="filter-select__list-item">
+                                    <input class="filter-select__checkbox" type="checkbox" id="check_4"/>
+                                    <label for="check_4" class="filter-select__label">
+                                        <svg class="icon icon--size-xl filter-select__icon"><use href="local/templates/main/images/sprite.svg#icon-flag"/></svg>
+                                        <span class="filter-select__caption">SMM стратегия</span>
+                                    </label>
+                                </li>
+                                <li class="filter-select__list-item">
+                                    <input class="filter-select__checkbox" type="checkbox" id="check_5"/>
+                                    <label for="check_5" class="filter-select__label">
+                                        <svg class="icon icon--size-xl filter-select__icon"><use href="local/templates/main/images/sprite.svg#icon-align-left"/></svg>
+                                        <span class="filter-select__caption">Контент план</span>
+                                    </label>
+                                </li>
+                                <li class="filter-select__list-item">
+                                    <input class="filter-select__checkbox" type="checkbox" id="check_6"/>
+                                    <label for="check_6" class="filter-select__label">
+                                        <svg class="icon icon--size-xl filter-select__icon"><use href="local/templates/main/images/sprite.svg#icon-play-circle"/></svg>
+                                        <span class="filter-select__caption">Сценарий для видео</span>
+                                    </label>
+                                </li>
+                                <li class="filter-select__list-item">
+                                    <input class="filter-select__checkbox" type="checkbox" id="check_7"/>
+                                    <label for="check_7" class="filter-select__label">
+                                        <svg class="icon icon--size-xl filter-select__icon"><use href="local/templates/main/images/sprite.svg#icon-users"/></svg>
+                                        <span class="filter-select__caption">Лид-магнит</span>
+                                    </label>
+                                </li>
+                                <li class="filter-select__list-item">
+                                    <input class="filter-select__checkbox" type="checkbox" id="check_8"/>
+                                    <label for="check_8" class="filter-select__label">
+                                        <svg class="icon icon--size-xl filter-select__icon"><use href="local/templates/main/images/sprite.svg#icon-image"/></svg>
+                                        <span class="filter-select__caption">Генерация фото</span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="filter-selected">
+                        <label class="filter-selected__item" for="check_1">
+                            <svg class="icon icon--size-s filter-selected__icon"><use href="local/templates/main/images/sprite.svg#icon-cross"/></svg>
+                            <span class="filter-selected__caption">SEO оптимизация</span>
+                        </label>
+                        <label class="filter-selected__item" for="check_2">
+                            <svg class="icon icon--size-s filter-selected__icon"><use href="local/templates/main/images/sprite.svg#icon-cross"/></svg>
+                            <span class="filter-selected__caption">Перефраз. содержания</span>
+                        </label>
+                        <label class="filter-selected__item"  for="check_3">
+                            <svg class="icon icon--size-s filter-selected__icon"><use href="local/templates/main/images/sprite.svg#icon-cross"/></svg>
+                            <span class="filter-selected__caption">Написание статей</span>
+                        </label>
+                        <label for="check_4" class="filter-selected__item">
+                            <svg class="icon icon--size-s filter-selected__icon"><use href="local/templates/main/images/sprite.svg#icon-cross"/></svg>
+                            <span class="filter-selected__caption">SMM стратегия</span>
+                        </label>
+                        <label for="check_5" class="filter-selected__item">
+                            <svg class="icon icon--size-s filter-selected__icon"><use href="local/templates/main/images/sprite.svg#icon-cross"/></svg>
+                            <span class="filter-selected__caption">Контент план</span>
+                        </label>
+                        <label for="check_6" class="filter-selected__item">
+                            <svg class="icon icon--size-s filter-selected__icon"><use href="local/templates/main/images/sprite.svg#icon-cross"/></svg>
+                            <span class="filter-selected__caption">Сценарий для видео</span>
+                        </label>
+                        <label for="check_7" class="filter-selected__item">
+                            <svg class="icon icon--size-s filter-selected__icon"><use href="local/templates/main/images/sprite.svg#icon-cross"/></svg>
+                            <span class="filter-selected__caption">Лид-магнит</span>
+                        </label>
+                        <label for="check_8" class="filter-selected__item">
+                            <svg class="icon icon--size-s filter-selected__icon"><use href="local/templates/main/images/sprite.svg#icon-cross"/></svg>
+                            <span class="filter-selected__caption">Генерация фото</span>
+                        </label>
+                    </div>
+                </form>
+                <div class="main-body__scrollbar scrollbar scrollbar--vertical scrollbar--theme-gray">
+                    <ul class="history">
+                        <li class="history__item">
+                            <h4 class="history__title">Брось вызов обыденности</h4>
+                            <div class="history__body">
+                                <div class="history__info">
+                                    <div class="history__tag">
+                                        <svg class="icon icon--size-s history__tag-icon">
+                                            <use href="local/templates/main/images/sprite.svg#icon-bar-chart"/>
+                                        </svg>
+                                        Заголовки для блогов
+                                    </div>
+                                    <div class="history__date">13 Декабря 2024</div>
+                                </div>
+                                <div class="history__buttons">
+                                    <button class="history__btn" type="button">
+                                        <svg class="icon icon--size-m">
+                                            <use href="local/templates/main/images/sprite.svg#icon-trash"/>
+                                        </svg>
+                                    </button>
+                                    <button class="history__btn" type="button">
+                                        <svg class="icon icon--size-m">
+                                            <use href="local/templates/main/images/sprite.svg#icon-copy"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </li><li class="history__item">
+                            <h4 class="history__title">Брось вызов обыденности</h4>
+                            <div class="history__body">
+                                <div class="history__info">
+                                    <div class="history__tag">
+                                        <svg class="icon icon--size-s history__tag-icon">
+                                            <use href="local/templates/main/images/sprite.svg#icon-bar-chart"/>
+                                        </svg>
+                                        SEO оптимизация
+                                    </div>
+                                    <div class="history__date">13 Декабря 2024</div>
+                                </div>
+                                <div class="history__buttons">
+                                    <button class="history__btn" type="button">
+                                        <svg class="icon icon--size-m">
+                                            <use href="local/templates/main/images/sprite.svg#icon-trash"/>
+                                        </svg>
+                                    </button>
+                                    <button class="history__btn" type="button">
+                                        <svg class="icon icon--size-m">
+                                            <use href="local/templates/main/images/sprite.svg#icon-copy"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </li><li class="history__item">
+                            <h4 class="history__title">Брось вызов обыденности</h4>
+                            <div class="history__body">
+                                <div class="history__info">
+                                    <div class="history__tag">
+                                        <svg class="icon icon--size-s history__tag-icon">
+                                            <use href="local/templates/main/images/sprite.svg#icon-list"/>
+                                        </svg>
+                                        Перефраз. содержания
+                                    </div>
+                                    <div class="history__date">13 Декабря 2024</div>
+                                </div>
+                                <div class="history__buttons">
+                                    <button class="history__btn" type="button">
+                                        <svg class="icon icon--size-m">
+                                            <use href="local/templates/main/images/sprite.svg#icon-trash"/>
+                                        </svg>
+                                    </button>
+                                    <button class="history__btn" type="button">
+                                        <svg class="icon icon--size-m">
+                                            <use href="local/templates/main/images/sprite.svg#icon-copy"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </li><li class="history__item">
+                            <h4 class="history__title">Брось вызов обыденности</h4>
+                            <div class="history__body">
+                                <div class="history__info">
+                                    <div class="history__tag">
+                                        <svg class="icon icon--size-s history__tag-icon">
+                                            <use href="local/templates/main/images/sprite.svg#icon-edit"/>
+                                        </svg>
+                                        Написание статей
+                                    </div>
+                                    <div class="history__date">13 Декабря 2024</div>
+                                </div>
+                                <div class="history__buttons">
+                                    <button class="history__btn" type="button">
+                                        <svg class="icon icon--size-m">
+                                            <use href="local/templates/main/images/sprite.svg#icon-trash"/>
+                                        </svg>
+                                    </button>
+                                    <button class="history__btn" type="button">
+                                        <svg class="icon icon--size-m">
+                                            <use href="local/templates/main/images/sprite.svg#icon-copy"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </li><li class="history__item">
+                            <h4 class="history__title">Брось вызов обыденности</h4>
+                            <div class="history__body">
+                                <div class="history__info">
+                                    <div class="history__tag">
+                                        <svg class="icon icon--size-s history__tag-icon">
+                                            <use href="local/templates/main/images/sprite.svg#icon-flag"/>
+                                        </svg>
+                                        SMM стратегия
+                                    </div>
+                                    <div class="history__date">13 Декабря 2024</div>
+                                </div>
+                                <div class="history__buttons">
+                                    <button class="history__btn" type="button">
+                                        <svg class="icon icon--size-m">
+                                            <use href="local/templates/main/images/sprite.svg#icon-trash"/>
+                                        </svg>
+                                    </button>
+                                    <button class="history__btn" type="button">
+                                        <svg class="icon icon--size-m">
+                                            <use href="local/templates/main/images/sprite.svg#icon-copy"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </li><li class="history__item">
+                            <h4 class="history__title">Брось вызов обыденности</h4>
+                            <div class="history__body">
+                                <div class="history__info">
+                                    <div class="history__tag">
+                                        <svg class="icon icon--size-s history__tag-icon">
+                                            <use href="local/templates/main/images/sprite.svg#icon-align-left"/>
+                                        </svg>
+                                        Контент план
+                                    </div>
+                                    <div class="history__date">13 Декабря 2024</div>
+                                </div>
+                                <div class="history__buttons">
+                                    <button class="history__btn" type="button">
+                                        <svg class="icon icon--size-m">
+                                            <use href="local/templates/main/images/sprite.svg#icon-trash"/>
+                                        </svg>
+                                    </button>
+                                    <button class="history__btn" type="button">
+                                        <svg class="icon icon--size-m">
+                                            <use href="local/templates/main/images/sprite.svg#icon-copy"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </li><li class="history__item">
+                            <h4 class="history__title">Брось вызов обыденности</h4>
+                            <div class="history__body">
+                                <div class="history__info">
+                                    <div class="history__tag">
+                                        <svg class="icon icon--size-s history__tag-icon">
+                                            <use href="local/templates/main/images/sprite.svg#icon-play-circle"/>
+                                        </svg>
+                                        Сценарий для видео
+                                    </div>
+                                    <div class="history__date">13 Декабря 2024</div>
+                                </div>
+                                <div class="history__buttons">
+                                    <button class="history__btn" type="button">
+                                        <svg class="icon icon--size-m">
+                                            <use href="local/templates/main/images/sprite.svg#icon-trash"/>
+                                        </svg>
+                                    </button>
+                                    <button class="history__btn" type="button">
+                                        <svg class="icon icon--size-m">
+                                            <use href="local/templates/main/images/sprite.svg#icon-copy"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </li><li class="history__item">
+                            <h4 class="history__title">Брось вызов обыденности</h4>
+                            <div class="history__body">
+                                <div class="history__info">
+                                    <div class="history__tag">
+                                        <svg class="icon icon--size-s history__tag-icon">
+                                            <use href="local/templates/main/images/sprite.svg#icon-users"/>
+                                        </svg>
+                                        Лид-магнит
+                                    </div>
+                                    <div class="history__date">13 Декабря 2024</div>
+                                </div>
+                                <div class="history__buttons">
+                                    <button class="history__btn" type="button">
+                                        <svg class="icon icon--size-m">
+                                            <use href="local/templates/main/images/sprite.svg#icon-trash"/>
+                                        </svg>
+                                    </button>
+                                    <button class="history__btn" type="button">
+                                        <svg class="icon icon--size-m">
+                                            <use href="local/templates/main/images/sprite.svg#icon-copy"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </li><li class="history__item">
+                            <h4 class="history__title">Брось вызов обыденности</h4>
+                            <div class="history__body">
+                                <div class="history__info">
+                                    <div class="history__tag">
+                                        <svg class="icon icon--size-s history__tag-icon">
+                                            <use href="local/templates/main/images/sprite.svg#icon-image"/>
+                                        </svg>
+                                        Генерация фото
+                                    </div>
+                                    <div class="history__date">13 Декабря 2024</div>
+                                </div>
+                                <div class="history__buttons">
+                                    <button class="history__btn" type="button">
+                                        <svg class="icon icon--size-m">
+                                            <use href="local/templates/main/images/sprite.svg#icon-trash"/>
+                                        </svg>
+                                    </button>
+                                    <button class="history__btn" type="button">
+                                        <svg class="icon icon--size-m">
+                                            <use href="local/templates/main/images/sprite.svg#icon-copy"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </li><li class="history__item">
+                            <h4 class="history__title">Брось вызов обыденности</h4>
+                            <div class="history__body">
+                                <div class="history__info">
+                                    <div class="history__tag">
+                                        <svg class="icon icon--size-s history__tag-icon">
+                                            <use href="local/templates/main/images/sprite.svg#icon-tag-name"/>
+                                        </svg>
+                                        Генерация лого.
+                                    </div>
+                                    <div class="history__date">13 Декабря 2024</div>
+                                </div>
+                                <div class="history__buttons">
+                                    <button class="history__btn" type="button">
+                                        <svg class="icon icon--size-m">
+                                            <use href="local/templates/main/images/sprite.svg#icon-trash"/>
+                                        </svg>
+                                    </button>
+                                    <button class="history__btn" type="button">
+                                        <svg class="icon icon--size-m">
+                                            <use href="local/templates/main/images/sprite.svg#icon-copy"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </li><li class="history__item">
+                            <h4 class="history__title">Брось вызов обыденности</h4>
+                            <div class="history__body">
+                                <div class="history__info">
+                                    <div class="history__tag">
+                                        <svg class="icon icon--size-s history__tag-icon">
+                                            <use href="local/templates/main/images/sprite.svg#icon-play-circle"/>
+                                        </svg>
+                                        Сценарий для видео
+                                    </div>
+                                    <div class="history__date">13 Декабря 2024</div>
+                                </div>
+                                <div class="history__buttons">
+                                    <button class="history__btn" type="button">
+                                        <svg class="icon icon--size-m">
+                                            <use href="local/templates/main/images/sprite.svg#icon-trash"/>
+                                        </svg>
+                                    </button>
+                                    <button class="history__btn" type="button">
+                                        <svg class="icon icon--size-m">
+                                            <use href="local/templates/main/images/sprite.svg#icon-copy"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </li><li class="history__item">
+                            <h4 class="history__title">Брось вызов обыденности</h4>
+                            <div class="history__body">
+                                <div class="history__info">
+                                    <div class="history__tag">
+                                        <svg class="icon icon--size-s history__tag-icon">
+                                            <use href="local/templates/main/images/sprite.svg#icon-users"/>
+                                        </svg>
+                                        Лид-магнит
+                                    </div>
+                                    <div class="history__date">13 Декабря 2024</div>
+                                </div>
+                                <div class="history__buttons">
+                                    <button class="history__btn" type="button">
+                                        <svg class="icon icon--size-m">
+                                            <use href="local/templates/main/images/sprite.svg#icon-trash"/>
+                                        </svg>
+                                    </button>
+                                    <button class="history__btn" type="button">
+                                        <svg class="icon icon--size-m">
+                                            <use href="local/templates/main/images/sprite.svg#icon-copy"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main-body__bottom">
+                    <button class="btn btn--size-m btn--theme-text-dark main-body__bottom-btn" type="button">Показать больше</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="local/templates/main/js/main.min.js"></script>
+</body>
+</html>
