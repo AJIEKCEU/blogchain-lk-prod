@@ -152,7 +152,7 @@
         <div class="main-body">
             <div class="main-body__content">
                 <form class="filter">
-                    <h2>История запросов</h2>
+                    <h2 class="filter__title">История запросов</h2>
                     <div class="filter-select js-filter-select">
                         <button class="filter-select__button js-filter-select__button" type="button">
                             <span class="filter-select__button-body">
@@ -164,56 +164,56 @@
                         <div class="filter-select__body js-filter-select__body">
                             <ul class="filter-select__list">
                                 <li class="filter-select__list-item">
-                                    <input class="filter-select__checkbox" type="checkbox" id="check_1"/>
+                                    <input class="filter-select__checkbox js-filter-select-checkbox" type="checkbox" id="check_1"/>
                                     <label for="check_1" class="filter-select__label">
                                         <svg class="icon icon--size-xl filter-select__icon"><use href="local/templates/main/images/sprite.svg#icon-bar-chart"/></svg>
                                         <span class="filter-select__caption">SEO оптимизация</span>
                                     </label>
                                 </li>
                                 <li class="filter-select__list-item">
-                                    <input class="filter-select__checkbox" type="checkbox" id="check_2"/>
+                                    <input class="filter-select__checkbox js-filter-select-checkbox" type="checkbox" id="check_2"/>
                                     <label for="check_2" class="filter-select__label">
                                         <svg class="icon icon--size-xl filter-select__icon"><use href="local/templates/main/images/sprite.svg#icon-list"/></svg>
                                         <span class="filter-select__caption">Перефраз. содержания</span>
                                     </label>
                                 </li>
                                 <li class="filter-select__list-item">
-                                    <input class="filter-select__checkbox" type="checkbox" id="check_3"/>
+                                    <input class="filter-select__checkbox js-filter-select-checkbox" type="checkbox" id="check_3"/>
                                     <label for="check_3" class="filter-select__label">
                                         <svg class="icon icon--size-xl filter-select__icon"><use href="local/templates/main/images/sprite.svg#icon-edit"/></svg>
                                         <span class="filter-select__caption">Написание статей</span>
                                     </label>
                                 </li>
                                 <li class="filter-select__list-item">
-                                    <input class="filter-select__checkbox" type="checkbox" id="check_4"/>
+                                    <input class="filter-select__checkbox js-filter-select-checkbox" type="checkbox" id="check_4"/>
                                     <label for="check_4" class="filter-select__label">
                                         <svg class="icon icon--size-xl filter-select__icon"><use href="local/templates/main/images/sprite.svg#icon-flag"/></svg>
                                         <span class="filter-select__caption">SMM стратегия</span>
                                     </label>
                                 </li>
                                 <li class="filter-select__list-item">
-                                    <input class="filter-select__checkbox" type="checkbox" id="check_5"/>
+                                    <input class="filter-select__checkbox js-filter-select-checkbox" type="checkbox" id="check_5"/>
                                     <label for="check_5" class="filter-select__label">
                                         <svg class="icon icon--size-xl filter-select__icon"><use href="local/templates/main/images/sprite.svg#icon-align-left"/></svg>
                                         <span class="filter-select__caption">Контент план</span>
                                     </label>
                                 </li>
                                 <li class="filter-select__list-item">
-                                    <input class="filter-select__checkbox" type="checkbox" id="check_6"/>
+                                    <input class="filter-select__checkbox js-filter-select-checkbox" type="checkbox" id="check_6"/>
                                     <label for="check_6" class="filter-select__label">
                                         <svg class="icon icon--size-xl filter-select__icon"><use href="local/templates/main/images/sprite.svg#icon-play-circle"/></svg>
                                         <span class="filter-select__caption">Сценарий для видео</span>
                                     </label>
                                 </li>
                                 <li class="filter-select__list-item">
-                                    <input class="filter-select__checkbox" type="checkbox" id="check_7"/>
+                                    <input class="filter-select__checkbox js-filter-select-checkbox" type="checkbox" id="check_7"/>
                                     <label for="check_7" class="filter-select__label">
                                         <svg class="icon icon--size-xl filter-select__icon"><use href="local/templates/main/images/sprite.svg#icon-users"/></svg>
                                         <span class="filter-select__caption">Лид-магнит</span>
                                     </label>
                                 </li>
                                 <li class="filter-select__list-item">
-                                    <input class="filter-select__checkbox" type="checkbox" id="check_8"/>
+                                    <input class="filter-select__checkbox js-filter-select-checkbox" type="checkbox" id="check_8"/>
                                     <label for="check_8" class="filter-select__label">
                                         <svg class="icon icon--size-xl filter-select__icon"><use href="local/templates/main/images/sprite.svg#icon-image"/></svg>
                                         <span class="filter-select__caption">Генерация фото</span>
@@ -222,36 +222,36 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="filter-selected">
-                        <label class="filter-selected__item" for="check_1">
+                    <div class="filter-selected js-filter-selected">
+                        <label class="filter-selected__item js-filter-selected-item hide" for="check_1">
                             <svg class="icon icon--size-s filter-selected__icon"><use href="local/templates/main/images/sprite.svg#icon-cross"/></svg>
                             <span class="filter-selected__caption">SEO оптимизация</span>
                         </label>
-                        <label class="filter-selected__item" for="check_2">
+                        <label class="filter-selected__item js-filter-selected-item hide" for="check_2">
                             <svg class="icon icon--size-s filter-selected__icon"><use href="local/templates/main/images/sprite.svg#icon-cross"/></svg>
                             <span class="filter-selected__caption">Перефраз. содержания</span>
                         </label>
-                        <label class="filter-selected__item"  for="check_3">
+                        <label class="filter-selected__item js-filter-selected-item hide"  for="check_3">
                             <svg class="icon icon--size-s filter-selected__icon"><use href="local/templates/main/images/sprite.svg#icon-cross"/></svg>
                             <span class="filter-selected__caption">Написание статей</span>
                         </label>
-                        <label for="check_4" class="filter-selected__item">
+                        <label class="filter-selected__item js-filter-selected-item hide" for="check_4" >
                             <svg class="icon icon--size-s filter-selected__icon"><use href="local/templates/main/images/sprite.svg#icon-cross"/></svg>
                             <span class="filter-selected__caption">SMM стратегия</span>
                         </label>
-                        <label for="check_5" class="filter-selected__item">
+                        <label class="filter-selected__item js-filter-selected-item hide" for="check_5">
                             <svg class="icon icon--size-s filter-selected__icon"><use href="local/templates/main/images/sprite.svg#icon-cross"/></svg>
                             <span class="filter-selected__caption">Контент план</span>
                         </label>
-                        <label for="check_6" class="filter-selected__item">
+                        <label class="filter-selected__item js-filter-selected-item hide" for="check_6">
                             <svg class="icon icon--size-s filter-selected__icon"><use href="local/templates/main/images/sprite.svg#icon-cross"/></svg>
                             <span class="filter-selected__caption">Сценарий для видео</span>
                         </label>
-                        <label for="check_7" class="filter-selected__item">
+                        <label class="filter-selected__item js-filter-selected-item hide" for="check_7">
                             <svg class="icon icon--size-s filter-selected__icon"><use href="local/templates/main/images/sprite.svg#icon-cross"/></svg>
                             <span class="filter-selected__caption">Лид-магнит</span>
                         </label>
-                        <label for="check_8" class="filter-selected__item">
+                        <label class="filter-selected__item js-filter-selected-item hide" for="check_8">
                             <svg class="icon icon--size-s filter-selected__icon"><use href="local/templates/main/images/sprite.svg#icon-cross"/></svg>
                             <span class="filter-selected__caption">Генерация фото</span>
                         </label>
