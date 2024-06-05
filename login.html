@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8"/>
+	<title>Заголовок</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="shortcut icon" href="local/templates/main/images/favicon.ico"/>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,600,700&amp;subset=cyrillic" rel="stylesheet">
+	<script src="local/templates/main/js/jquery.js"></script>
+	<link href="local/templates/main/css/main.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="personal">
+        <div class="personal__info">
+            <img class="personal__logo" width="156" height="33" src="local/templates/main/images/logo.svg" alt="">
+            <div class="personal__content">
+                <form class="form personal__form personal-form">
+                    <h1>Войти в аккаунт</h1>
+                    <div class="form__field-row">
+                        <label class="form__label">E-mail</label>
+                        <input class="form__field" type="email">
+                    </div>
+                    <div class="form__field-row">
+                        <label class="form__label">Пароль</label>
+                        <input class="form__field" type="password">
+                    </div>
+                    <p class="personal-form__text">Забыли ваш пароль? <a class="personal__link" href="#">Сбросить пароль</a></p>
+                    <button class="btn btn--block btn--theme-accent btn--size-m" type="button">Войти</button>
+                    <div class="personal-form__separator">
+                        <span class="personal-form__separator-text">или</span>
+                    </div>
+                    <button class="btn btn--block btn--theme-text-dark btn--size-m personal-form__social-btn" type="button">
+                        <svg class="icon icon--size-xxl btn__icon--left-xl"><use href="local/templates/main/images/sprite.svg#icon-google-colored"/></svg>
+                        Войти с помощью Google
+                    </button>
+                    <p class="personal-form__text">Нет аккаунта? <a class="personal__link" href="#">Зарегистрируйтесь бесплатно</a></p>
+                </form>
+            </div>
+        </div>
+        <div class="personal__media">
+            <svg class="icon personal__media-icon"><use href="local/templates/main/images/sprite.svg#icon-logo-small"/></svg>
+        </div>
+    </div>
+</body>
+</html>
